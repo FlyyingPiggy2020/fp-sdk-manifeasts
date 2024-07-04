@@ -2,12 +2,14 @@
 <manifest>
     <remote name="origin" fetch="git@github.com:FlyyingPiggy2020" />
     <default remote="origin" revision="main" />
-
     <project name="fp-sdk" path="fp-sdk" />
 
     <remote name="origin" fetch="git@github.com:FlyyingPiggy2020" />
     <default remote="origin" revision="main" />
-
     <project name="board" path="board" />
+
+    <remote name="origin" fetch="git@github.com:FlyyingPiggy2020" />
+    <default remote="origin" revision="master" />
+    <project name="segger-rtt" path="third_party/segger-rtt" />
     <!-- 添加其他项目 -->
 </manifest>
